@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 const schema = mongoose.Schema({
-  topic: String,
-    userName: String,
+    topic: String,
+    username: String,
     time: String,
     title: String,
     image: String,
@@ -10,7 +10,6 @@ const schema = mongoose.Schema({
     retuits: Number,
     likes: Number,
     dislikes: Number,
-    disliked: Boolean,
     handle: String,
     tuit: String,
 }, {collection: 'tuits'});
